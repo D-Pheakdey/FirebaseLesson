@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1072322351169",
+    "firebase_url": "https://fir-database-ee596-default-rtdb.firebaseio.com",
+    "project_id": "fir-database-ee596",
+    "storage_bucket": "fir-database-ee596.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072322351169:android:d7f4a3b88aadd3e8b4f6c0",
+        "android_client_info": {
+          "package_name": "com.example.firebasedatabase2024"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfA_m3Sh6QbV1bggWCtlTaG82uN7_8U9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

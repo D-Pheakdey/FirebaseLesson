@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".userlist">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List of Users"
+        android:textSize="25sp"
+        android:gravity="center"
+        />
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/schUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:queryHint="Search here"
+        app:iconifiedByDefault="false"
+        android:layout_marginTop="10dp"/>
+    <ListView
+        android:id="@+id/lstUsrList"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/bntmain"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_gravity="center"
+        android:background="@drawable/custo_edittext"
+        android:backgroundTint="#00BCD4"
+        android:onClick="Back"
+        />
+</LinearLayout>
